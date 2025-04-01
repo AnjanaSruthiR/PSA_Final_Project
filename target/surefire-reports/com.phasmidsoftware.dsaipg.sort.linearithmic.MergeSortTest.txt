@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.phasmidsoftware.dsaipg.sort.linearithmic.MergeSortTest
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.511 s -- in com.phasmidsoftware.dsaipg.sort.linearithmic.MergeSortTest

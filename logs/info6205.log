@@ -1,0 +1,459 @@
+2025-03-28 15:06:09.168 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 15:06:09.171 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 15:06:09.171 INFO  SortBenchmark - Beginning String sorts
+2025-03-28 15:06:09.172 INFO  SortBenchmark - ############################### 10000 words ###############################
+2025-03-28 15:06:09.262 INFO  SortBenchmarkHelper - Testing with words: 22,865 from eng-uk_web_2002_10K-sentences.txt
+2025-03-28 15:06:09.265 INFO  SortBenchmark - benchmarkStringSorters: sorting 10,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:09.265 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:06:09.266 INFO  SortBenchmark - ############################### 20000 words ###############################
+2025-03-28 15:06:09.375 INFO  SortBenchmarkHelper - Testing with words: 22,865 from eng-uk_web_2002_10K-sentences.txt
+2025-03-28 15:06:09.375 INFO  SortBenchmark - benchmarkStringSorters: sorting 20,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:09.375 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:06:09.376 INFO  SortBenchmark - ############################### 40000 words ###############################
+2025-03-28 15:06:09.418 INFO  SortBenchmarkHelper - Testing with words: 22,865 from eng-uk_web_2002_10K-sentences.txt
+2025-03-28 15:06:09.418 INFO  SortBenchmark - benchmarkStringSorters: sorting 40,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:09.418 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:06:09.418 INFO  SortBenchmark - ############################### 80000 words ###############################
+2025-03-28 15:06:09.841 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt
+2025-03-28 15:06:09.841 INFO  SortBenchmark - benchmarkStringSorters: sorting 80,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:09.841 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:06:09.842 INFO  SortBenchmark - ############################### 160000 words ###############################
+2025-03-28 15:06:10.224 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt
+2025-03-28 15:06:10.226 INFO  SortBenchmark - benchmarkStringSorters: sorting 160,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:10.226 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:06:10.226 INFO  SortBenchmark - ############################### 256000 words ###############################
+2025-03-28 15:06:10.635 INFO  SortBenchmarkHelper - Testing with words: 81,546 from eng-uk_web_2002_100K-sentences.txt
+2025-03-28 15:06:10.636 INFO  SortBenchmark - benchmarkStringSorters: sorting 256,000 words and instrumented with total work (for estimating runs): 1.0E8
+2025-03-28 15:06:10.636 INFO  SortBenchmark -     normalization of statistics is based on n ln n
+2025-03-28 15:44:24.231 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 15:44:24.234 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 15:48:18.292 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 15:48:18.295 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 15:48:18.301 INFO  SortBenchmark - ****************************** Integer sort: 10000 MergeSort ******************************
+2025-03-28 15:48:18.304 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1,086 runs
+2025-03-28 15:48:18.306 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1,086 runs
+2025-03-28 15:48:18.309 INFO  InstrumentedComparatorHelper - 10000@MergeSort: StatPack {hits: <unset>; lookups: <unset>; copies: <unset>; inversions: <unset>; swaps: <unset>; fixes: <unset>; compares: <unset>}
+2025-03-28 17:17:42.027 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 17:17:42.030 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 17:17:42.037 INFO  SortBenchmark - ****************************** Integer sort: 10000 MergeSort ******************************
+2025-03-28 17:17:42.040 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1,086 runs
+2025-03-28 17:17:42.041 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1,086 runs
+2025-03-28 17:17:44.559 INFO  TimeLogger - 10000@MergeSort: Raw time per run {mSec}:  2.2446
+2025-03-28 17:17:44.559 INFO  TimeLogger - 10000@MergeSort: Normalized time per run {n log n}:  18.9485
+2025-03-28 17:17:44.561 INFO  InstrumentedComparatorHelper - 10000@MergeSort: StatPack {hits: n=1086; mean=417764; stdDev=974; normalized=4.536; lookups: <unset>; copies: n=1086; mean=180000; normalized=1.954; inversions: <unset>; swaps: n=1086; mean=46360; stdDev=328; normalized=0.503; fixes: <unset>; compares: n=1086; mean=143542; stdDev=319; normalized=1.558}
+2025-03-28 17:17:44.562 INFO  SortBenchmark - ************************************************************ (2.523 sec.)
+2025-03-28 17:17:44.563 INFO  SortBenchmark - ****************************** Integer sort: 10000 QuickSort dual pivot ******************************
+2025-03-28 17:17:44.564 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:17:44.564 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 10,000 elements with 10,860 runs
+2025-03-28 17:18:00.887 INFO  TimeLogger - 10000@QuickSort dual pivot: Raw time per run {mSec}:  1.4685
+2025-03-28 17:18:00.887 INFO  TimeLogger - 10000@QuickSort dual pivot: Normalized time per run {n log n}:  12.3967
+2025-03-28 17:18:00.889 INFO  InstrumentedComparatorHelper - 10000@QuickSort dual pivot: StatPack {hits: n=10860; mean=290874; stdDev=15192; normalized=3.158; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=75216; stdDev=4562; normalized=0.817; fixes: <unset>; compares: n=10860; mean=162469; stdDev=7988; normalized=1.764}
+2025-03-28 17:18:00.889 INFO  SortBenchmark - ************************************************************ (16.326 sec.)
+2025-03-28 17:18:00.890 INFO  SortBenchmark - ****************************** Integer sort: 10000 Heap Sort ******************************
+2025-03-28 17:18:00.890 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:18:00.890 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 10,000 elements with 10,860 runs
+2025-03-28 17:18:26.606 INFO  TimeLogger - 10000@Heap Sort: Raw time per run {mSec}:  2.3355
+2025-03-28 17:18:26.607 INFO  TimeLogger - 10000@Heap Sort: Normalized time per run {n log n}:  19.7159
+2025-03-28 17:18:26.608 INFO  InstrumentedComparatorHelper - 10000@Heap Sort: StatPack {hits: n=10860; mean=967547; stdDev=466; normalized=10.505; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=124201; stdDev=76; normalized=1.348; fixes: <unset>; compares: n=10860; mean=235372; stdDev=93; normalized=2.556}
+2025-03-28 17:18:26.608 INFO  SortBenchmark - ************************************************************ (25.719 sec.)
+2025-03-28 17:18:26.608 INFO  SortBenchmark - ****************************** Integer sort: 20000 MergeSort ******************************
+2025-03-28 17:18:26.609 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 505 runs
+2025-03-28 17:18:26.609 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 20,000 elements with 505 runs
+2025-03-28 17:18:28.971 INFO  TimeLogger - 20000@MergeSort: Raw time per run {mSec}:  4.5881
+2025-03-28 17:18:28.971 INFO  TimeLogger - 20000@MergeSort: Normalized time per run {n log n}:  17.8589
+2025-03-28 17:18:28.971 INFO  InstrumentedComparatorHelper - 20000@MergeSort: StatPack {hits: n=505; mean=895653; stdDev=1383; normalized=4.522; lookups: <unset>; copies: n=505; mean=400000; normalized=2.019; inversions: <unset>; swaps: n=505; mean=92763; stdDev=466; normalized=0.468; fixes: <unset>; compares: n=505; mean=307120; stdDev=454; normalized=1.551}
+2025-03-28 17:18:28.971 INFO  SortBenchmark - ************************************************************ (2.363 sec.)
+2025-03-28 17:18:28.972 INFO  SortBenchmark - ****************************** Integer sort: 20000 QuickSort dual pivot ******************************
+2025-03-28 17:18:28.972 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:18:28.972 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 20,000 elements with 5,050 runs
+2025-03-28 17:18:38.542 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 17:18:38.545 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 17:18:38.554 INFO  SortBenchmark - ****************************** Integer sort: 10000 MergeSort ******************************
+2025-03-28 17:18:38.557 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1,086 runs
+2025-03-28 17:18:38.558 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1,086 runs
+2025-03-28 17:18:41.025 INFO  TimeLogger - 10000@MergeSort: Raw time per run {mSec}:  2.1961
+2025-03-28 17:18:41.025 INFO  TimeLogger - 10000@MergeSort: Normalized time per run {n log n}:  18.5393
+2025-03-28 17:18:41.027 INFO  InstrumentedComparatorHelper - 10000@MergeSort: StatPack {hits: n=1086; mean=417764; stdDev=974; normalized=4.536; lookups: <unset>; copies: n=1086; mean=180000; normalized=1.954; inversions: <unset>; swaps: n=1086; mean=46360; stdDev=328; normalized=0.503; fixes: <unset>; compares: n=1086; mean=143542; stdDev=319; normalized=1.558}
+2025-03-28 17:18:41.028 INFO  SortBenchmark - ************************************************************ (2.473 sec.)
+2025-03-28 17:18:41.029 INFO  SortBenchmark - ****************************** Integer sort: 10000 QuickSort dual pivot ******************************
+2025-03-28 17:18:41.030 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:18:41.030 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 10,000 elements with 10,860 runs
+2025-03-28 17:18:57.836 INFO  TimeLogger - 10000@QuickSort dual pivot: Raw time per run {mSec}:  1.5105
+2025-03-28 17:18:57.839 INFO  TimeLogger - 10000@QuickSort dual pivot: Normalized time per run {n log n}:  12.7511
+2025-03-28 17:18:57.841 INFO  InstrumentedComparatorHelper - 10000@QuickSort dual pivot: StatPack {hits: n=10860; mean=290874; stdDev=15192; normalized=3.158; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=75216; stdDev=4562; normalized=0.817; fixes: <unset>; compares: n=10860; mean=162469; stdDev=7988; normalized=1.764}
+2025-03-28 17:18:57.841 INFO  SortBenchmark - ************************************************************ (16.812 sec.)
+2025-03-28 17:18:57.848 INFO  SortBenchmark - ****************************** Integer sort: 10000 Heap Sort ******************************
+2025-03-28 17:18:57.849 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:18:57.849 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 10,000 elements with 10,860 runs
+2025-03-28 17:19:23.689 INFO  TimeLogger - 10000@Heap Sort: Raw time per run {mSec}:  2.3473
+2025-03-28 17:19:23.690 INFO  TimeLogger - 10000@Heap Sort: Normalized time per run {n log n}:  19.8155
+2025-03-28 17:19:23.691 INFO  InstrumentedComparatorHelper - 10000@Heap Sort: StatPack {hits: n=10860; mean=967547; stdDev=466; normalized=10.505; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=124201; stdDev=76; normalized=1.348; fixes: <unset>; compares: n=10860; mean=235372; stdDev=93; normalized=2.556}
+2025-03-28 17:19:23.691 INFO  SortBenchmark - ************************************************************ (25.844 sec.)
+2025-03-28 17:19:23.692 INFO  SortBenchmark - ****************************** Integer sort: 20000 MergeSort ******************************
+2025-03-28 17:19:23.692 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 505 runs
+2025-03-28 17:19:23.692 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 20,000 elements with 505 runs
+2025-03-28 17:19:26.220 INFO  TimeLogger - 20000@MergeSort: Raw time per run {mSec}:  4.8994
+2025-03-28 17:19:26.220 INFO  TimeLogger - 20000@MergeSort: Normalized time per run {n log n}:  19.0706
+2025-03-28 17:19:26.220 INFO  InstrumentedComparatorHelper - 20000@MergeSort: StatPack {hits: n=505; mean=895653; stdDev=1383; normalized=4.522; lookups: <unset>; copies: n=505; mean=400000; normalized=2.019; inversions: <unset>; swaps: n=505; mean=92763; stdDev=466; normalized=0.468; fixes: <unset>; compares: n=505; mean=307120; stdDev=454; normalized=1.551}
+2025-03-28 17:19:26.220 INFO  SortBenchmark - ************************************************************ (2.528 sec.)
+2025-03-28 17:19:26.220 INFO  SortBenchmark - ****************************** Integer sort: 20000 QuickSort dual pivot ******************************
+2025-03-28 17:19:26.221 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:19:26.221 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 20,000 elements with 5,050 runs
+2025-03-28 17:19:43.968 INFO  TimeLogger - 20000@QuickSort dual pivot: Raw time per run {mSec}:  3.4498
+2025-03-28 17:19:43.969 INFO  TimeLogger - 20000@QuickSort dual pivot: Normalized time per run {n log n}:  13.4282
+2025-03-28 17:19:43.970 INFO  InstrumentedComparatorHelper - 20000@QuickSort dual pivot: StatPack {hits: n=5050; mean=626901; stdDev=36368; normalized=3.165; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=161713; stdDev=10477; normalized=0.816; fixes: <unset>; compares: n=5050; mean=352896; stdDev=19516; normalized=1.782}
+2025-03-28 17:19:43.970 INFO  SortBenchmark - ************************************************************ (17.75 sec.)
+2025-03-28 17:19:43.970 INFO  SortBenchmark - ****************************** Integer sort: 20000 Heap Sort ******************************
+2025-03-28 17:19:43.970 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:19:43.970 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 20,000 elements with 5,050 runs
+2025-03-28 17:20:09.797 INFO  TimeLogger - 20000@Heap Sort: Raw time per run {mSec}:  5.0492
+2025-03-28 17:20:09.798 INFO  TimeLogger - 20000@Heap Sort: Normalized time per run {n log n}:  19.6536
+2025-03-28 17:20:09.799 INFO  InstrumentedComparatorHelper - 20000@Heap Sort: StatPack {hits: n=5050; mean=2095092; stdDev=661; normalized=10.578; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=268401; stdDev=109; normalized=1.355; fixes: <unset>; compares: n=5050; mean=510744; stdDev=130; normalized=2.579}
+2025-03-28 17:20:09.799 INFO  SortBenchmark - ************************************************************ (25.83 sec.)
+2025-03-28 17:20:09.800 INFO  SortBenchmark - ****************************** Integer sort: 40000 MergeSort ******************************
+2025-03-28 17:20:09.800 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 236 runs
+2025-03-28 17:20:09.800 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 40,000 elements with 236 runs
+2025-03-28 17:20:12.187 INFO  TimeLogger - 40000@MergeSort: Raw time per run {mSec}:  9.8662
+2025-03-28 17:20:12.188 INFO  TimeLogger - 40000@MergeSort: Normalized time per run {n log n}:  17.8151
+2025-03-28 17:20:12.188 INFO  InstrumentedComparatorHelper - 40000@MergeSort: StatPack {hits: n=236; mean=1911394; stdDev=1966; normalized=4.509; lookups: <unset>; copies: n=236; mean=880000; normalized=2.076; inversions: <unset>; swaps: n=236; mean=185557; stdDev=664; normalized=0.438; fixes: <unset>; compares: n=236; mean=654267; stdDev=642; normalized=1.544}
+2025-03-28 17:20:12.188 INFO  SortBenchmark - ************************************************************ (2.388 sec.)
+2025-03-28 17:20:12.189 INFO  SortBenchmark - ****************************** Integer sort: 40000 QuickSort dual pivot ******************************
+2025-03-28 17:20:12.189 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:20:12.189 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 40,000 elements with 2,360 runs
+2025-03-28 17:20:29.538 INFO  TimeLogger - 40000@QuickSort dual pivot: Raw time per run {mSec}:  7.2150
+2025-03-28 17:20:29.539 INFO  TimeLogger - 40000@QuickSort dual pivot: Normalized time per run {n log n}:  13.0280
+2025-03-28 17:20:29.540 INFO  InstrumentedComparatorHelper - 40000@QuickSort dual pivot: StatPack {hits: n=2360; mean=1341493; stdDev=98180; normalized=3.165; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=345162; stdDev=27001; normalized=0.814; fixes: <unset>; compares: n=2360; mean=760921; stdDev=52312; normalized=1.795}
+2025-03-28 17:20:29.540 INFO  SortBenchmark - ************************************************************ (17.351 sec.)
+2025-03-28 17:20:29.540 INFO  SortBenchmark - ****************************** Integer sort: 40000 Heap Sort ******************************
+2025-03-28 17:20:29.540 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:20:29.540 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 40,000 elements with 2,360 runs
+2025-03-28 17:20:57.730 INFO  TimeLogger - 40000@Heap Sort: Raw time per run {mSec}:  11.7973
+2025-03-28 17:20:57.731 INFO  TimeLogger - 40000@Heap Sort: Normalized time per run {n log n}:  21.3021
+2025-03-28 17:20:57.732 INFO  InstrumentedComparatorHelper - 40000@Heap Sort: StatPack {hits: n=2360; mean=4510155; stdDev=934; normalized=10.641; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=576796; stdDev=153; normalized=1.361; fixes: <unset>; compares: n=2360; mean=1101485; stdDev=186; normalized=2.599}
+2025-03-28 17:20:57.732 INFO  SortBenchmark - ************************************************************ (28.193 sec.)
+2025-03-28 17:20:57.733 INFO  SortBenchmark - ****************************** Integer sort: 80000 MergeSort ******************************
+2025-03-28 17:20:57.734 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 111 runs
+2025-03-28 17:20:57.734 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 80,000 elements with 111 runs
+2025-03-28 17:21:00.184 INFO  TimeLogger - 80000@MergeSort: Raw time per run {mSec}:  20.9010
+2025-03-28 17:21:00.184 INFO  TimeLogger - 80000@MergeSort: Normalized time per run {n log n}:  17.5992
+2025-03-28 17:21:00.184 INFO  InstrumentedComparatorHelper - 80000@MergeSort: StatPack {hits: n=111; mean=4062066; stdDev=2872; normalized=4.498; lookups: <unset>; copies: n=111; mean=1920000; normalized=2.126; inversions: <unset>; swaps: n=111; mean=370868; stdDev=968; normalized=0.411; fixes: <unset>; compares: n=111; mean=1388306; stdDev=947; normalized=1.537}
+2025-03-28 17:21:00.184 INFO  SortBenchmark - ************************************************************ (2.451 sec.)
+2025-03-28 17:21:00.185 INFO  SortBenchmark - ****************************** Integer sort: 80000 QuickSort dual pivot ******************************
+2025-03-28 17:21:00.185 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:21:00.185 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 80,000 elements with 1,110 runs
+2025-03-28 17:21:17.402 INFO  TimeLogger - 80000@QuickSort dual pivot: Raw time per run {mSec}:  15.2115
+2025-03-28 17:21:17.404 INFO  TimeLogger - 80000@QuickSort dual pivot: Normalized time per run {n log n}:  12.8085
+2025-03-28 17:21:17.404 INFO  InstrumentedComparatorHelper - 80000@QuickSort dual pivot: StatPack {hits: n=1110; mean=2870400; stdDev=280857; normalized=3.178; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=737375; stdDev=74959; normalized=0.816; fixes: <unset>; compares: n=1110; mean=1640119; stdDev=158644; normalized=1.816}
+2025-03-28 17:21:17.405 INFO  SortBenchmark - ************************************************************ (17.22 sec.)
+2025-03-28 17:21:17.406 INFO  SortBenchmark - ****************************** Integer sort: 80000 Heap Sort ******************************
+2025-03-28 17:21:17.406 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:21:17.406 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 80,000 elements with 1,110 runs
+2025-03-28 17:21:45.123 INFO  TimeLogger - 80000@Heap Sort: Raw time per run {mSec}:  24.6447
+2025-03-28 17:21:45.124 INFO  TimeLogger - 80000@Heap Sort: Normalized time per run {n log n}:  20.7515
+2025-03-28 17:21:45.125 INFO  InstrumentedComparatorHelper - 80000@Heap Sort: StatPack {hits: n=1110; mean=9660401; stdDev=1314; normalized=10.696; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=1233610; stdDev=213; normalized=1.366; fixes: <unset>; compares: n=1110; mean=2362980; stdDev=266; normalized=2.616}
+2025-03-28 17:21:45.125 INFO  SortBenchmark - ************************************************************ (27.719 sec.)
+2025-03-28 17:21:45.126 INFO  SortBenchmark - ****************************** Integer sort: 160000 MergeSort ******************************
+2025-03-28 17:21:45.127 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 52 runs
+2025-03-28 17:21:45.127 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 160,000 elements with 52 runs
+2025-03-28 17:21:47.710 INFO  TimeLogger - 160000@MergeSort: Raw time per run {mSec}:  46.5598
+2025-03-28 17:21:47.710 INFO  TimeLogger - 160000@MergeSort: Normalized time per run {n log n}:  18.3652
+2025-03-28 17:21:47.711 INFO  InstrumentedComparatorHelper - 160000@MergeSort: StatPack {hits: n=52; mean=8603780; stdDev=4405; normalized=4.488; lookups: <unset>; copies: n=52; mean=4160000; normalized=2.170; inversions: <unset>; swaps: n=52; mean=741623; stdDev=1497; normalized=0.387; fixes: <unset>; compares: n=52; mean=2936473; stdDev=1441; normalized=1.532}
+2025-03-28 17:21:47.711 INFO  SortBenchmark - ************************************************************ (2.585 sec.)
+2025-03-28 17:21:47.712 INFO  SortBenchmark - ****************************** Integer sort: 160000 QuickSort dual pivot ******************************
+2025-03-28 17:21:47.712 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:21:47.712 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 160,000 elements with 520 runs
+2025-03-28 17:22:05.041 INFO  TimeLogger - 160000@QuickSort dual pivot: Raw time per run {mSec}:  32.6446
+2025-03-28 17:22:05.041 INFO  TimeLogger - 160000@QuickSort dual pivot: Normalized time per run {n log n}:  12.8765
+2025-03-28 17:22:05.042 INFO  InstrumentedComparatorHelper - 160000@QuickSort dual pivot: StatPack {hits: n=520; mean=6094925; stdDev=864538; normalized=3.179; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=1563319; stdDev=229637; normalized=0.815; fixes: <unset>; compares: n=520; mean=3513055; stdDev=483116; normalized=1.832}
+2025-03-28 17:22:05.042 INFO  SortBenchmark - ************************************************************ (17.33 sec.)
+2025-03-28 17:22:05.043 INFO  SortBenchmark - ****************************** Integer sort: 160000 Heap Sort ******************************
+2025-03-28 17:22:05.043 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:22:05.043 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 160,000 elements with 520 runs
+2025-03-28 17:22:34.240 INFO  TimeLogger - 160000@Heap Sort: Raw time per run {mSec}:  55.3304
+2025-03-28 17:22:34.241 INFO  TimeLogger - 160000@Heap Sort: Normalized time per run {n log n}:  21.8247
+2025-03-28 17:22:34.242 INFO  InstrumentedComparatorHelper - 160000@Heap Sort: StatPack {hits: n=520; mean=20600669; stdDev=1758; normalized=10.745; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=2627190; stdDev=288; normalized=1.370; fixes: <unset>; compares: n=520; mean=5045954; stdDev=356; normalized=2.632}
+2025-03-28 17:22:34.242 INFO  SortBenchmark - ************************************************************ (29.199 sec.)
+2025-03-28 17:22:34.517 INFO  SortBenchmark - ****************************** Integer sort: 256000 MergeSort ******************************
+2025-03-28 17:22:34.517 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 31 runs
+2025-03-28 17:22:34.517 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 256,000 elements with 31 runs
+2025-03-28 17:22:37.280 INFO  TimeLogger - 256000@MergeSort: Raw time per run {mSec}:  77.4499
+2025-03-28 17:22:37.281 INFO  TimeLogger - 256000@MergeSort: Normalized time per run {n log n}:  18.3100
+2025-03-28 17:22:37.281 INFO  InstrumentedComparatorHelper - 256000@MergeSort: StatPack {hits: n=31; mean=13780903; stdDev=4026; normalized=4.323; lookups: <unset>; copies: n=31; mean=7168000; normalized=2.248; inversions: <unset>; swaps: n=31; mean=937176; stdDev=1367; normalized=0.294; fixes: <unset>; compares: n=31; mean=4690703; stdDev=1332; normalized=1.471}
+2025-03-28 17:22:37.281 INFO  SortBenchmark - ************************************************************ (2.764 sec.)
+2025-03-28 17:22:37.283 INFO  SortBenchmark - ****************************** Integer sort: 256000 QuickSort dual pivot ******************************
+2025-03-28 17:22:37.283 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:22:37.283 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 256,000 elements with 310 runs
+2025-03-28 17:22:54.019 INFO  TimeLogger - 256000@QuickSort dual pivot: Raw time per run {mSec}:  52.6493
+2025-03-28 17:22:54.019 INFO  TimeLogger - 256000@QuickSort dual pivot: Normalized time per run {n log n}:  12.4469
+2025-03-28 17:22:54.020 INFO  InstrumentedComparatorHelper - 256000@QuickSort dual pivot: StatPack {hits: n=310; mean=10170345; stdDev=1711083; normalized=3.190; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=2608800; stdDev=444039; normalized=0.818; fixes: <unset>; compares: n=310; mean=5868389; stdDev=997632; normalized=1.841}
+2025-03-28 17:22:54.020 INFO  SortBenchmark - ************************************************************ (16.737 sec.)
+2025-03-28 17:22:54.023 INFO  SortBenchmark - ****************************** Integer sort: 256000 Heap Sort ******************************
+2025-03-28 17:22:54.023 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:22:54.023 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 256,000 elements with 310 runs
+2025-03-28 17:23:23.637 INFO  TimeLogger - 256000@Heap Sort: Raw time per run {mSec}:  93.7747
+2025-03-28 17:23:23.639 INFO  TimeLogger - 256000@Heap Sort: Normalized time per run {n log n}:  22.1694
+2025-03-28 17:23:23.640 INFO  InstrumentedComparatorHelper - 256000@Heap Sort: StatPack {hits: n=310; mean=34308740; stdDev=2428; normalized=10.762; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=4371961; stdDev=388; normalized=1.371; fixes: <unset>; compares: n=310; mean=8410447; stdDev=495; normalized=2.638}
+2025-03-28 17:23:23.640 INFO  SortBenchmark - ************************************************************ (29.617 sec.)
+2025-03-28 17:24:14.499 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 17:24:14.502 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 17:24:14.508 INFO  SortBenchmark - ****************************** Integer sort: 10000 MergeSort ******************************
+2025-03-28 17:24:14.511 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1,086 runs
+2025-03-28 17:24:14.511 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1,086 runs
+2025-03-28 17:24:16.951 INFO  TimeLogger - 10000@MergeSort: Raw time per run {mSec}:  2.1722
+2025-03-28 17:24:16.952 INFO  TimeLogger - 10000@MergeSort: Normalized time per run {n log n}:  18.3370
+2025-03-28 17:24:16.953 INFO  InstrumentedComparatorHelper - 10000@MergeSort: StatPack {hits: n=1086; mean=417764; stdDev=974; normalized=4.536; lookups: <unset>; copies: n=1086; mean=180000; normalized=1.954; inversions: <unset>; swaps: n=1086; mean=46360; stdDev=328; normalized=0.503; fixes: <unset>; compares: n=1086; mean=143542; stdDev=319; normalized=1.558}
+2025-03-28 17:24:16.954 INFO  SortBenchmark - ************************************************************ (2.445 sec.)
+2025-03-28 17:24:16.955 INFO  SortBenchmark - ****************************** Integer sort: 10000 QuickSort dual pivot ******************************
+2025-03-28 17:24:16.955 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:24:16.956 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 10,000 elements with 10,860 runs
+2025-03-28 17:24:33.291 INFO  TimeLogger - 10000@QuickSort dual pivot: Raw time per run {mSec}:  1.4694
+2025-03-28 17:24:33.292 INFO  TimeLogger - 10000@QuickSort dual pivot: Normalized time per run {n log n}:  12.4040
+2025-03-28 17:24:33.294 INFO  InstrumentedComparatorHelper - 10000@QuickSort dual pivot: StatPack {hits: n=10860; mean=290874; stdDev=15192; normalized=3.158; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=75216; stdDev=4562; normalized=0.817; fixes: <unset>; compares: n=10860; mean=162469; stdDev=7988; normalized=1.764}
+2025-03-28 17:24:33.294 INFO  SortBenchmark - ************************************************************ (16.339 sec.)
+2025-03-28 17:24:33.295 INFO  SortBenchmark - ****************************** Integer sort: 10000 Heap Sort ******************************
+2025-03-28 17:24:33.295 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:24:33.295 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 10,000 elements with 10,860 runs
+2025-03-28 17:24:59.481 INFO  TimeLogger - 10000@Heap Sort: Raw time per run {mSec}:  2.3786
+2025-03-28 17:24:59.483 INFO  TimeLogger - 10000@Heap Sort: Normalized time per run {n log n}:  20.0800
+2025-03-28 17:24:59.484 INFO  InstrumentedComparatorHelper - 10000@Heap Sort: StatPack {hits: n=10860; mean=967547; stdDev=466; normalized=10.505; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=124201; stdDev=76; normalized=1.348; fixes: <unset>; compares: n=10860; mean=235372; stdDev=93; normalized=2.556}
+2025-03-28 17:24:59.484 INFO  SortBenchmark - ************************************************************ (26.189 sec.)
+2025-03-28 17:24:59.484 INFO  SortBenchmark - ****************************** Integer sort: 20000 MergeSort ******************************
+2025-03-28 17:24:59.484 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 505 runs
+2025-03-28 17:24:59.485 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 20,000 elements with 505 runs
+2025-03-28 17:25:01.831 INFO  TimeLogger - 20000@MergeSort: Raw time per run {mSec}:  4.5577
+2025-03-28 17:25:01.832 INFO  TimeLogger - 20000@MergeSort: Normalized time per run {n log n}:  17.7404
+2025-03-28 17:25:01.832 INFO  InstrumentedComparatorHelper - 20000@MergeSort: StatPack {hits: n=505; mean=895653; stdDev=1383; normalized=4.522; lookups: <unset>; copies: n=505; mean=400000; normalized=2.019; inversions: <unset>; swaps: n=505; mean=92763; stdDev=466; normalized=0.468; fixes: <unset>; compares: n=505; mean=307120; stdDev=454; normalized=1.551}
+2025-03-28 17:25:01.832 INFO  SortBenchmark - ************************************************************ (2.348 sec.)
+2025-03-28 17:25:01.832 INFO  SortBenchmark - ****************************** Integer sort: 20000 QuickSort dual pivot ******************************
+2025-03-28 17:25:01.832 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:25:01.832 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 20,000 elements with 5,050 runs
+2025-03-28 17:25:19.355 INFO  TimeLogger - 20000@QuickSort dual pivot: Raw time per run {mSec}:  3.4050
+2025-03-28 17:25:19.356 INFO  TimeLogger - 20000@QuickSort dual pivot: Normalized time per run {n log n}:  13.2539
+2025-03-28 17:25:19.357 INFO  InstrumentedComparatorHelper - 20000@QuickSort dual pivot: StatPack {hits: n=5050; mean=626901; stdDev=36368; normalized=3.165; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=161713; stdDev=10477; normalized=0.816; fixes: <unset>; compares: n=5050; mean=352896; stdDev=19516; normalized=1.782}
+2025-03-28 17:25:19.357 INFO  SortBenchmark - ************************************************************ (17.525 sec.)
+2025-03-28 17:25:19.358 INFO  SortBenchmark - ****************************** Integer sort: 20000 Heap Sort ******************************
+2025-03-28 17:25:19.358 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:25:19.358 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 20,000 elements with 5,050 runs
+2025-03-28 17:25:45.942 INFO  TimeLogger - 20000@Heap Sort: Raw time per run {mSec}:  5.1892
+2025-03-28 17:25:45.942 INFO  TimeLogger - 20000@Heap Sort: Normalized time per run {n log n}:  20.1985
+2025-03-28 17:25:45.943 INFO  InstrumentedComparatorHelper - 20000@Heap Sort: StatPack {hits: n=5050; mean=2095092; stdDev=661; normalized=10.578; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=268401; stdDev=109; normalized=1.355; fixes: <unset>; compares: n=5050; mean=510744; stdDev=130; normalized=2.579}
+2025-03-28 17:25:45.943 INFO  SortBenchmark - ************************************************************ (26.586 sec.)
+2025-03-28 17:25:45.943 INFO  SortBenchmark - ****************************** Integer sort: 40000 MergeSort ******************************
+2025-03-28 17:25:45.944 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 236 runs
+2025-03-28 17:25:45.944 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 40,000 elements with 236 runs
+2025-03-28 17:25:48.321 INFO  TimeLogger - 40000@MergeSort: Raw time per run {mSec}:  9.8117
+2025-03-28 17:25:48.322 INFO  TimeLogger - 40000@MergeSort: Normalized time per run {n log n}:  17.7167
+2025-03-28 17:25:48.322 INFO  InstrumentedComparatorHelper - 40000@MergeSort: StatPack {hits: n=236; mean=1911394; stdDev=1966; normalized=4.509; lookups: <unset>; copies: n=236; mean=880000; normalized=2.076; inversions: <unset>; swaps: n=236; mean=185557; stdDev=664; normalized=0.438; fixes: <unset>; compares: n=236; mean=654267; stdDev=642; normalized=1.544}
+2025-03-28 17:25:48.322 INFO  SortBenchmark - ************************************************************ (2.379 sec.)
+2025-03-28 17:25:48.323 INFO  SortBenchmark - ****************************** Integer sort: 40000 QuickSort dual pivot ******************************
+2025-03-28 17:25:48.323 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:25:48.323 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 40,000 elements with 2,360 runs
+2025-03-28 17:26:05.665 INFO  TimeLogger - 40000@QuickSort dual pivot: Raw time per run {mSec}:  7.1995
+2025-03-28 17:26:05.669 INFO  TimeLogger - 40000@QuickSort dual pivot: Normalized time per run {n log n}:  13.0000
+2025-03-28 17:26:05.672 INFO  InstrumentedComparatorHelper - 40000@QuickSort dual pivot: StatPack {hits: n=2360; mean=1341493; stdDev=98180; normalized=3.165; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=345162; stdDev=27001; normalized=0.814; fixes: <unset>; compares: n=2360; mean=760921; stdDev=52312; normalized=1.795}
+2025-03-28 17:26:05.672 INFO  SortBenchmark - ************************************************************ (17.349 sec.)
+2025-03-28 17:26:05.674 INFO  SortBenchmark - ****************************** Integer sort: 40000 Heap Sort ******************************
+2025-03-28 17:26:05.674 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:26:05.675 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 40,000 elements with 2,360 runs
+2025-03-28 17:26:33.121 INFO  TimeLogger - 40000@Heap Sort: Raw time per run {mSec}:  11.4851
+2025-03-28 17:26:33.122 INFO  TimeLogger - 40000@Heap Sort: Normalized time per run {n log n}:  20.7383
+2025-03-28 17:26:33.123 INFO  InstrumentedComparatorHelper - 40000@Heap Sort: StatPack {hits: n=2360; mean=4510155; stdDev=934; normalized=10.641; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=576796; stdDev=153; normalized=1.361; fixes: <unset>; compares: n=2360; mean=1101485; stdDev=186; normalized=2.599}
+2025-03-28 17:26:33.123 INFO  SortBenchmark - ************************************************************ (27.449 sec.)
+2025-03-28 17:26:33.124 INFO  SortBenchmark - ****************************** Integer sort: 80000 MergeSort ******************************
+2025-03-28 17:26:33.125 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 111 runs
+2025-03-28 17:26:33.125 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 80,000 elements with 111 runs
+2025-03-28 17:26:35.642 INFO  TimeLogger - 80000@MergeSort: Raw time per run {mSec}:  21.7249
+2025-03-28 17:26:35.642 INFO  TimeLogger - 80000@MergeSort: Normalized time per run {n log n}:  18.2930
+2025-03-28 17:26:35.642 INFO  InstrumentedComparatorHelper - 80000@MergeSort: StatPack {hits: n=111; mean=4062066; stdDev=2872; normalized=4.498; lookups: <unset>; copies: n=111; mean=1920000; normalized=2.126; inversions: <unset>; swaps: n=111; mean=370868; stdDev=968; normalized=0.411; fixes: <unset>; compares: n=111; mean=1388306; stdDev=947; normalized=1.537}
+2025-03-28 17:26:35.642 INFO  SortBenchmark - ************************************************************ (2.517 sec.)
+2025-03-28 17:26:35.643 INFO  SortBenchmark - ****************************** Integer sort: 80000 QuickSort dual pivot ******************************
+2025-03-28 17:26:35.643 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:26:35.643 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 80,000 elements with 1,110 runs
+2025-03-28 17:26:52.791 INFO  TimeLogger - 80000@QuickSort dual pivot: Raw time per run {mSec}:  15.1434
+2025-03-28 17:26:52.793 INFO  TimeLogger - 80000@QuickSort dual pivot: Normalized time per run {n log n}:  12.7511
+2025-03-28 17:26:52.794 INFO  InstrumentedComparatorHelper - 80000@QuickSort dual pivot: StatPack {hits: n=1110; mean=2870400; stdDev=280857; normalized=3.178; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=737375; stdDev=74959; normalized=0.816; fixes: <unset>; compares: n=1110; mean=1640119; stdDev=158644; normalized=1.816}
+2025-03-28 17:26:52.794 INFO  SortBenchmark - ************************************************************ (17.152 sec.)
+2025-03-28 17:26:52.795 INFO  SortBenchmark - ****************************** Integer sort: 80000 Heap Sort ******************************
+2025-03-28 17:26:52.795 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:26:52.795 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 80,000 elements with 1,110 runs
+2025-03-28 17:27:20.576 INFO  TimeLogger - 80000@Heap Sort: Raw time per run {mSec}:  24.7057
+2025-03-28 17:27:20.577 INFO  TimeLogger - 80000@Heap Sort: Normalized time per run {n log n}:  20.8029
+2025-03-28 17:27:20.578 INFO  InstrumentedComparatorHelper - 80000@Heap Sort: StatPack {hits: n=1110; mean=9660401; stdDev=1314; normalized=10.696; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=1233610; stdDev=213; normalized=1.366; fixes: <unset>; compares: n=1110; mean=2362980; stdDev=266; normalized=2.616}
+2025-03-28 17:27:20.578 INFO  SortBenchmark - ************************************************************ (27.784 sec.)
+2025-03-28 17:27:20.580 INFO  SortBenchmark - ****************************** Integer sort: 160000 MergeSort ******************************
+2025-03-28 17:27:20.580 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 52 runs
+2025-03-28 17:27:20.580 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 160,000 elements with 52 runs
+2025-03-28 17:27:23.161 INFO  TimeLogger - 160000@MergeSort: Raw time per run {mSec}:  46.3270
+2025-03-28 17:27:23.161 INFO  TimeLogger - 160000@MergeSort: Normalized time per run {n log n}:  18.2734
+2025-03-28 17:27:23.162 INFO  InstrumentedComparatorHelper - 160000@MergeSort: StatPack {hits: n=52; mean=8603780; stdDev=4405; normalized=4.488; lookups: <unset>; copies: n=52; mean=4160000; normalized=2.170; inversions: <unset>; swaps: n=52; mean=741623; stdDev=1497; normalized=0.387; fixes: <unset>; compares: n=52; mean=2936473; stdDev=1441; normalized=1.532}
+2025-03-28 17:27:23.162 INFO  SortBenchmark - ************************************************************ (2.582 sec.)
+2025-03-28 17:27:23.163 INFO  SortBenchmark - ****************************** Integer sort: 160000 QuickSort dual pivot ******************************
+2025-03-28 17:27:23.163 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:27:23.163 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 160,000 elements with 520 runs
+2025-03-28 17:27:39.923 INFO  TimeLogger - 160000@QuickSort dual pivot: Raw time per run {mSec}:  31.5549
+2025-03-28 17:27:39.924 INFO  TimeLogger - 160000@QuickSort dual pivot: Normalized time per run {n log n}:  12.4467
+2025-03-28 17:27:39.924 INFO  InstrumentedComparatorHelper - 160000@QuickSort dual pivot: StatPack {hits: n=520; mean=6094925; stdDev=864538; normalized=3.179; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=1563319; stdDev=229637; normalized=0.815; fixes: <unset>; compares: n=520; mean=3513055; stdDev=483116; normalized=1.832}
+2025-03-28 17:27:39.924 INFO  SortBenchmark - ************************************************************ (16.762 sec.)
+2025-03-28 17:27:39.926 INFO  SortBenchmark - ****************************** Integer sort: 160000 Heap Sort ******************************
+2025-03-28 17:27:39.926 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:27:39.926 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 160,000 elements with 520 runs
+2025-03-28 17:28:10.498 INFO  TimeLogger - 160000@Heap Sort: Raw time per run {mSec}:  57.9327
+2025-03-28 17:28:10.499 INFO  TimeLogger - 160000@Heap Sort: Normalized time per run {n log n}:  22.8512
+2025-03-28 17:28:10.500 INFO  InstrumentedComparatorHelper - 160000@Heap Sort: StatPack {hits: n=520; mean=20600669; stdDev=1758; normalized=10.745; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=2627190; stdDev=288; normalized=1.370; fixes: <unset>; compares: n=520; mean=5045954; stdDev=356; normalized=2.632}
+2025-03-28 17:28:10.500 INFO  SortBenchmark - ************************************************************ (30.576 sec.)
+2025-03-28 17:28:10.801 INFO  SortBenchmark - ****************************** Integer sort: 256000 MergeSort ******************************
+2025-03-28 17:28:10.802 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 31 runs
+2025-03-28 17:28:10.802 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 256,000 elements with 31 runs
+2025-03-28 17:28:13.551 INFO  TimeLogger - 256000@MergeSort: Raw time per run {mSec}:  76.4750
+2025-03-28 17:28:13.552 INFO  TimeLogger - 256000@MergeSort: Normalized time per run {n log n}:  18.0795
+2025-03-28 17:28:13.552 INFO  InstrumentedComparatorHelper - 256000@MergeSort: StatPack {hits: n=31; mean=13780903; stdDev=4026; normalized=4.323; lookups: <unset>; copies: n=31; mean=7168000; normalized=2.248; inversions: <unset>; swaps: n=31; mean=937176; stdDev=1367; normalized=0.294; fixes: <unset>; compares: n=31; mean=4690703; stdDev=1332; normalized=1.471}
+2025-03-28 17:28:13.552 INFO  SortBenchmark - ************************************************************ (2.75 sec.)
+2025-03-28 17:28:13.554 INFO  SortBenchmark - ****************************** Integer sort: 256000 QuickSort dual pivot ******************************
+2025-03-28 17:28:13.554 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:28:13.554 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 256,000 elements with 310 runs
+2025-03-28 17:28:30.082 INFO  TimeLogger - 256000@QuickSort dual pivot: Raw time per run {mSec}:  52.0228
+2025-03-28 17:28:30.082 INFO  TimeLogger - 256000@QuickSort dual pivot: Normalized time per run {n log n}:  12.2988
+2025-03-28 17:28:30.083 INFO  InstrumentedComparatorHelper - 256000@QuickSort dual pivot: StatPack {hits: n=310; mean=10170345; stdDev=1711083; normalized=3.190; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=2608800; stdDev=444039; normalized=0.818; fixes: <unset>; compares: n=310; mean=5868389; stdDev=997632; normalized=1.841}
+2025-03-28 17:28:30.083 INFO  SortBenchmark - ************************************************************ (16.529 sec.)
+2025-03-28 17:28:30.085 INFO  SortBenchmark - ****************************** Integer sort: 256000 Heap Sort ******************************
+2025-03-28 17:28:30.085 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:28:30.085 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 256,000 elements with 310 runs
+2025-03-28 17:29:00.535 INFO  TimeLogger - 256000@Heap Sort: Raw time per run {mSec}:  96.4554
+2025-03-28 17:29:00.536 INFO  TimeLogger - 256000@Heap Sort: Normalized time per run {n log n}:  22.8031
+2025-03-28 17:29:00.537 INFO  InstrumentedComparatorHelper - 256000@Heap Sort: StatPack {hits: n=310; mean=34308740; stdDev=2428; normalized=10.762; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=4371961; stdDev=388; normalized=1.371; fixes: <unset>; compares: n=310; mean=8410447; stdDev=495; normalized=2.638}
+2025-03-28 17:29:00.537 INFO  SortBenchmark - ************************************************************ (30.453 sec.)
+2025-03-28 17:32:17.416 INFO  SortBenchmark - !!!!!!!!!!!!!!!!!!!! SortBenchmark Start !!!!!!!!!!!!!!!!!!!!
+
+2025-03-28 17:32:17.419 INFO  SortBenchmark - SortBenchmark.main: version 1.0.0 (sortbenchmark) with word counts: [10000, 20000, 40000, 80000, 160000, 256000]
+2025-03-28 17:32:17.424 INFO  SortBenchmark - ****************************** Integer sort: 10000 MergeSort ******************************
+2025-03-28 17:32:17.427 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 1,086 runs
+2025-03-28 17:32:17.428 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 10,000 elements with 1,086 runs
+2025-03-28 17:32:19.863 INFO  TimeLogger - 10000@MergeSort: Raw time per run {mSec}:  2.1681
+2025-03-28 17:32:19.869 INFO  TimeLogger - 10000@MergeSort: Normalized time per run {n log n}:  18.3023
+2025-03-28 17:32:19.873 INFO  InstrumentedComparatorHelper - 10000@MergeSort: StatPack {hits: n=1086; mean=417764; stdDev=974; normalized=4.536; lookups: <unset>; copies: n=1086; mean=180000; normalized=1.954; inversions: <unset>; swaps: n=1086; mean=46360; stdDev=328; normalized=0.503; fixes: <unset>; compares: n=1086; mean=143542; stdDev=319; normalized=1.558}
+2025-03-28 17:32:19.884 INFO  SortBenchmark - ************************************************************ (2.457 sec.)
+2025-03-28 17:32:19.896 INFO  SortBenchmark - ****************************** Integer sort: 10000 QuickSort dual pivot ******************************
+2025-03-28 17:32:19.896 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:32:19.896 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 10,000 elements with 10,860 runs
+2025-03-28 17:32:36.225 INFO  TimeLogger - 10000@QuickSort dual pivot: Raw time per run {mSec}:  1.4599
+2025-03-28 17:32:36.225 INFO  TimeLogger - 10000@QuickSort dual pivot: Normalized time per run {n log n}:  12.3246
+2025-03-28 17:32:36.227 INFO  InstrumentedComparatorHelper - 10000@QuickSort dual pivot: StatPack {hits: n=10860; mean=290874; stdDev=15192; normalized=3.158; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=75216; stdDev=4562; normalized=0.817; fixes: <unset>; compares: n=10860; mean=162469; stdDev=7988; normalized=1.764}
+2025-03-28 17:32:36.227 INFO  SortBenchmark - ************************************************************ (16.242 sec.)
+2025-03-28 17:32:36.229 INFO  SortBenchmark - ****************************** Integer sort: 10000 Heap Sort ******************************
+2025-03-28 17:32:36.229 INFO  SorterBenchmark - run: sort 10,000 elements with SorterBenchmark on class java.lang.Integer from 10,000 total elements and 10,860 runs
+2025-03-28 17:32:36.229 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 10,000 elements with 10,860 runs
+2025-03-28 17:33:03.323 INFO  TimeLogger - 10000@Heap Sort: Raw time per run {mSec}:  2.4597
+2025-03-28 17:33:03.324 INFO  TimeLogger - 10000@Heap Sort: Normalized time per run {n log n}:  20.7642
+2025-03-28 17:33:03.326 INFO  InstrumentedComparatorHelper - 10000@Heap Sort: StatPack {hits: n=10860; mean=967547; stdDev=466; normalized=10.505; lookups: <unset>; copies: n=10860; mean=0; normalized=0.000; inversions: <unset>; swaps: n=10860; mean=124201; stdDev=76; normalized=1.348; fixes: <unset>; compares: n=10860; mean=235372; stdDev=93; normalized=2.556}
+2025-03-28 17:33:03.326 INFO  SortBenchmark - ************************************************************ (27.097 sec.)
+2025-03-28 17:33:03.327 INFO  SortBenchmark - ****************************** Integer sort: 20000 MergeSort ******************************
+2025-03-28 17:33:03.327 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 505 runs
+2025-03-28 17:33:03.327 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 20,000 elements with 505 runs
+2025-03-28 17:33:05.688 INFO  TimeLogger - 20000@MergeSort: Raw time per run {mSec}:  4.5563
+2025-03-28 17:33:05.689 INFO  TimeLogger - 20000@MergeSort: Normalized time per run {n log n}:  17.7351
+2025-03-28 17:33:05.690 INFO  InstrumentedComparatorHelper - 20000@MergeSort: StatPack {hits: n=505; mean=895653; stdDev=1383; normalized=4.522; lookups: <unset>; copies: n=505; mean=400000; normalized=2.019; inversions: <unset>; swaps: n=505; mean=92763; stdDev=466; normalized=0.468; fixes: <unset>; compares: n=505; mean=307120; stdDev=454; normalized=1.551}
+2025-03-28 17:33:05.691 INFO  SortBenchmark - ************************************************************ (2.364 sec.)
+2025-03-28 17:33:05.698 INFO  SortBenchmark - ****************************** Integer sort: 20000 QuickSort dual pivot ******************************
+2025-03-28 17:33:05.700 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:33:05.701 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 20,000 elements with 5,050 runs
+2025-03-28 17:33:22.959 INFO  TimeLogger - 20000@QuickSort dual pivot: Raw time per run {mSec}:  3.3438
+2025-03-28 17:33:22.960 INFO  TimeLogger - 20000@QuickSort dual pivot: Normalized time per run {n log n}:  13.0157
+2025-03-28 17:33:22.961 INFO  InstrumentedComparatorHelper - 20000@QuickSort dual pivot: StatPack {hits: n=5050; mean=626901; stdDev=36368; normalized=3.165; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=161713; stdDev=10477; normalized=0.816; fixes: <unset>; compares: n=5050; mean=352896; stdDev=19516; normalized=1.782}
+2025-03-28 17:33:22.961 INFO  SortBenchmark - ************************************************************ (17.262 sec.)
+2025-03-28 17:33:22.961 INFO  SortBenchmark - ****************************** Integer sort: 20000 Heap Sort ******************************
+2025-03-28 17:33:22.962 INFO  SorterBenchmark - run: sort 20,000 elements with SorterBenchmark on class java.lang.Integer from 20,000 total elements and 5,050 runs
+2025-03-28 17:33:22.962 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 20,000 elements with 5,050 runs
+2025-03-28 17:33:49.559 INFO  TimeLogger - 20000@Heap Sort: Raw time per run {mSec}:  5.2005
+2025-03-28 17:33:49.560 INFO  TimeLogger - 20000@Heap Sort: Normalized time per run {n log n}:  20.2424
+2025-03-28 17:33:49.560 INFO  InstrumentedComparatorHelper - 20000@Heap Sort: StatPack {hits: n=5050; mean=2095092; stdDev=661; normalized=10.578; lookups: <unset>; copies: n=5050; mean=0; normalized=0.000; inversions: <unset>; swaps: n=5050; mean=268401; stdDev=109; normalized=1.355; fixes: <unset>; compares: n=5050; mean=510744; stdDev=130; normalized=2.579}
+2025-03-28 17:33:49.560 INFO  SortBenchmark - ************************************************************ (26.599 sec.)
+2025-03-28 17:33:49.561 INFO  SortBenchmark - ****************************** Integer sort: 40000 MergeSort ******************************
+2025-03-28 17:33:49.561 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 236 runs
+2025-03-28 17:33:49.561 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 40,000 elements with 236 runs
+2025-03-28 17:33:51.997 INFO  TimeLogger - 40000@MergeSort: Raw time per run {mSec}:  10.0565
+2025-03-28 17:33:51.997 INFO  TimeLogger - 40000@MergeSort: Normalized time per run {n log n}:  18.1588
+2025-03-28 17:33:51.997 INFO  InstrumentedComparatorHelper - 40000@MergeSort: StatPack {hits: n=236; mean=1911394; stdDev=1966; normalized=4.509; lookups: <unset>; copies: n=236; mean=880000; normalized=2.076; inversions: <unset>; swaps: n=236; mean=185557; stdDev=664; normalized=0.438; fixes: <unset>; compares: n=236; mean=654267; stdDev=642; normalized=1.544}
+2025-03-28 17:33:51.997 INFO  SortBenchmark - ************************************************************ (2.437 sec.)
+2025-03-28 17:33:51.998 INFO  SortBenchmark - ****************************** Integer sort: 40000 QuickSort dual pivot ******************************
+2025-03-28 17:33:51.998 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:33:51.998 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 40,000 elements with 2,360 runs
+2025-03-28 17:34:09.356 INFO  TimeLogger - 40000@QuickSort dual pivot: Raw time per run {mSec}:  7.2161
+2025-03-28 17:34:09.357 INFO  TimeLogger - 40000@QuickSort dual pivot: Normalized time per run {n log n}:  13.0299
+2025-03-28 17:34:09.357 INFO  InstrumentedComparatorHelper - 40000@QuickSort dual pivot: StatPack {hits: n=2360; mean=1341493; stdDev=98180; normalized=3.165; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=345162; stdDev=27001; normalized=0.814; fixes: <unset>; compares: n=2360; mean=760921; stdDev=52312; normalized=1.795}
+2025-03-28 17:34:09.357 INFO  SortBenchmark - ************************************************************ (17.359 sec.)
+2025-03-28 17:34:09.358 INFO  SortBenchmark - ****************************** Integer sort: 40000 Heap Sort ******************************
+2025-03-28 17:34:09.358 INFO  SorterBenchmark - run: sort 40,000 elements with SorterBenchmark on class java.lang.Integer from 40,000 total elements and 2,360 runs
+2025-03-28 17:34:09.358 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 40,000 elements with 2,360 runs
+2025-03-28 17:34:36.198 INFO  TimeLogger - 40000@Heap Sort: Raw time per run {mSec}:  11.2331
+2025-03-28 17:34:36.199 INFO  TimeLogger - 40000@Heap Sort: Normalized time per run {n log n}:  20.2833
+2025-03-28 17:34:36.199 INFO  InstrumentedComparatorHelper - 40000@Heap Sort: StatPack {hits: n=2360; mean=4510155; stdDev=934; normalized=10.641; lookups: <unset>; copies: n=2360; mean=0; normalized=0.000; inversions: <unset>; swaps: n=2360; mean=576796; stdDev=153; normalized=1.361; fixes: <unset>; compares: n=2360; mean=1101485; stdDev=186; normalized=2.599}
+2025-03-28 17:34:36.199 INFO  SortBenchmark - ************************************************************ (26.841 sec.)
+2025-03-28 17:34:36.200 INFO  SortBenchmark - ****************************** Integer sort: 80000 MergeSort ******************************
+2025-03-28 17:34:36.200 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 111 runs
+2025-03-28 17:34:36.200 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 80,000 elements with 111 runs
+2025-03-28 17:34:38.615 INFO  TimeLogger - 80000@MergeSort: Raw time per run {mSec}:  20.9308
+2025-03-28 17:34:38.615 INFO  TimeLogger - 80000@MergeSort: Normalized time per run {n log n}:  17.6243
+2025-03-28 17:34:38.615 INFO  InstrumentedComparatorHelper - 80000@MergeSort: StatPack {hits: n=111; mean=4062066; stdDev=2872; normalized=4.498; lookups: <unset>; copies: n=111; mean=1920000; normalized=2.126; inversions: <unset>; swaps: n=111; mean=370868; stdDev=968; normalized=0.411; fixes: <unset>; compares: n=111; mean=1388306; stdDev=947; normalized=1.537}
+2025-03-28 17:34:38.615 INFO  SortBenchmark - ************************************************************ (2.415 sec.)
+2025-03-28 17:34:38.616 INFO  SortBenchmark - ****************************** Integer sort: 80000 QuickSort dual pivot ******************************
+2025-03-28 17:34:38.616 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:34:38.616 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 80,000 elements with 1,110 runs
+2025-03-28 17:34:55.600 INFO  TimeLogger - 80000@QuickSort dual pivot: Raw time per run {mSec}:  15.0073
+2025-03-28 17:34:55.601 INFO  TimeLogger - 80000@QuickSort dual pivot: Normalized time per run {n log n}:  12.6365
+2025-03-28 17:34:55.601 INFO  InstrumentedComparatorHelper - 80000@QuickSort dual pivot: StatPack {hits: n=1110; mean=2870400; stdDev=280857; normalized=3.178; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=737375; stdDev=74959; normalized=0.816; fixes: <unset>; compares: n=1110; mean=1640119; stdDev=158644; normalized=1.816}
+2025-03-28 17:34:55.601 INFO  SortBenchmark - ************************************************************ (16.985 sec.)
+2025-03-28 17:34:55.602 INFO  SortBenchmark - ****************************** Integer sort: 80000 Heap Sort ******************************
+2025-03-28 17:34:55.602 INFO  SorterBenchmark - run: sort 80,000 elements with SorterBenchmark on class java.lang.Integer from 80,000 total elements and 1,110 runs
+2025-03-28 17:34:55.602 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 80,000 elements with 1,110 runs
+2025-03-28 17:35:23.216 INFO  TimeLogger - 80000@Heap Sort: Raw time per run {mSec}:  24.5597
+2025-03-28 17:35:23.217 INFO  TimeLogger - 80000@Heap Sort: Normalized time per run {n log n}:  20.6799
+2025-03-28 17:35:23.217 INFO  InstrumentedComparatorHelper - 80000@Heap Sort: StatPack {hits: n=1110; mean=9660401; stdDev=1314; normalized=10.696; lookups: <unset>; copies: n=1110; mean=0; normalized=0.000; inversions: <unset>; swaps: n=1110; mean=1233610; stdDev=213; normalized=1.366; fixes: <unset>; compares: n=1110; mean=2362980; stdDev=266; normalized=2.616}
+2025-03-28 17:35:23.217 INFO  SortBenchmark - ************************************************************ (27.616 sec.)
+2025-03-28 17:35:23.219 INFO  SortBenchmark - ****************************** Integer sort: 160000 MergeSort ******************************
+2025-03-28 17:35:23.219 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 52 runs
+2025-03-28 17:35:23.219 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 160,000 elements with 52 runs
+2025-03-28 17:35:25.789 INFO  TimeLogger - 160000@MergeSort: Raw time per run {mSec}:  46.3197
+2025-03-28 17:35:25.789 INFO  TimeLogger - 160000@MergeSort: Normalized time per run {n log n}:  18.2705
+2025-03-28 17:35:25.790 INFO  InstrumentedComparatorHelper - 160000@MergeSort: StatPack {hits: n=52; mean=8603780; stdDev=4405; normalized=4.488; lookups: <unset>; copies: n=52; mean=4160000; normalized=2.170; inversions: <unset>; swaps: n=52; mean=741623; stdDev=1497; normalized=0.387; fixes: <unset>; compares: n=52; mean=2936473; stdDev=1441; normalized=1.532}
+2025-03-28 17:35:25.790 INFO  SortBenchmark - ************************************************************ (2.571 sec.)
+2025-03-28 17:35:25.791 INFO  SortBenchmark - ****************************** Integer sort: 160000 QuickSort dual pivot ******************************
+2025-03-28 17:35:25.791 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:35:25.791 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 160,000 elements with 520 runs
+2025-03-28 17:35:43.033 INFO  TimeLogger - 160000@QuickSort dual pivot: Raw time per run {mSec}:  32.4438
+2025-03-28 17:35:43.033 INFO  TimeLogger - 160000@QuickSort dual pivot: Normalized time per run {n log n}:  12.7973
+2025-03-28 17:35:43.033 INFO  InstrumentedComparatorHelper - 160000@QuickSort dual pivot: StatPack {hits: n=520; mean=6094925; stdDev=864538; normalized=3.179; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=1563319; stdDev=229637; normalized=0.815; fixes: <unset>; compares: n=520; mean=3513055; stdDev=483116; normalized=1.832}
+2025-03-28 17:35:43.033 INFO  SortBenchmark - ************************************************************ (17.242 sec.)
+2025-03-28 17:35:43.035 INFO  SortBenchmark - ****************************** Integer sort: 160000 Heap Sort ******************************
+2025-03-28 17:35:43.035 INFO  SorterBenchmark - run: sort 160,000 elements with SorterBenchmark on class java.lang.Integer from 160,000 total elements and 520 runs
+2025-03-28 17:35:43.035 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 160,000 elements with 520 runs
+2025-03-28 17:36:12.355 INFO  TimeLogger - 160000@Heap Sort: Raw time per run {mSec}:  55.5625
+2025-03-28 17:36:12.357 INFO  TimeLogger - 160000@Heap Sort: Normalized time per run {n log n}:  21.9163
+2025-03-28 17:36:12.358 INFO  InstrumentedComparatorHelper - 160000@Heap Sort: StatPack {hits: n=520; mean=20600669; stdDev=1758; normalized=10.745; lookups: <unset>; copies: n=520; mean=0; normalized=0.000; inversions: <unset>; swaps: n=520; mean=2627190; stdDev=288; normalized=1.370; fixes: <unset>; compares: n=520; mean=5045954; stdDev=356; normalized=2.632}
+2025-03-28 17:36:12.358 INFO  SortBenchmark - ************************************************************ (29.323 sec.)
+2025-03-28 17:36:12.604 INFO  SortBenchmark - ****************************** Integer sort: 256000 MergeSort ******************************
+2025-03-28 17:36:12.604 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 31 runs
+2025-03-28 17:36:12.604 INFO  Benchmark_Timer - Begin run: Instrumenting helper for MergeSort with 256,000 elements with 31 runs
+2025-03-28 17:36:15.330 INFO  TimeLogger - 256000@MergeSort: Raw time per run {mSec}:  81.5871
+2025-03-28 17:36:15.330 INFO  TimeLogger - 256000@MergeSort: Normalized time per run {n log n}:  19.2881
+2025-03-28 17:36:15.331 INFO  InstrumentedComparatorHelper - 256000@MergeSort: StatPack {hits: n=31; mean=13780903; stdDev=4026; normalized=4.323; lookups: <unset>; copies: n=31; mean=7168000; normalized=2.248; inversions: <unset>; swaps: n=31; mean=937176; stdDev=1367; normalized=0.294; fixes: <unset>; compares: n=31; mean=4690703; stdDev=1332; normalized=1.471}
+2025-03-28 17:36:15.331 INFO  SortBenchmark - ************************************************************ (2.727 sec.)
+2025-03-28 17:36:15.333 INFO  SortBenchmark - ****************************** Integer sort: 256000 QuickSort dual pivot ******************************
+2025-03-28 17:36:15.333 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:36:15.333 INFO  Benchmark_Timer - Begin run: Instrumenting helper for QuickSort dual pivot with 256,000 elements with 310 runs
+2025-03-28 17:36:32.073 INFO  TimeLogger - 256000@QuickSort dual pivot: Raw time per run {mSec}:  52.6580
+2025-03-28 17:36:32.074 INFO  TimeLogger - 256000@QuickSort dual pivot: Normalized time per run {n log n}:  12.4489
+2025-03-28 17:36:32.074 INFO  InstrumentedComparatorHelper - 256000@QuickSort dual pivot: StatPack {hits: n=310; mean=10170345; stdDev=1711083; normalized=3.190; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=2608800; stdDev=444039; normalized=0.818; fixes: <unset>; compares: n=310; mean=5868389; stdDev=997632; normalized=1.841}
+2025-03-28 17:36:32.074 INFO  SortBenchmark - ************************************************************ (16.741 sec.)
+2025-03-28 17:36:32.076 INFO  SortBenchmark - ****************************** Integer sort: 256000 Heap Sort ******************************
+2025-03-28 17:36:32.076 INFO  SorterBenchmark - run: sort 256,000 elements with SorterBenchmark on class java.lang.Integer from 256,000 total elements and 310 runs
+2025-03-28 17:36:32.076 INFO  Benchmark_Timer - Begin run: Instrumenting helper for Heap Sort with 256,000 elements with 310 runs
+2025-03-28 17:37:03.159 INFO  TimeLogger - 256000@Heap Sort: Raw time per run {mSec}:  98.1715
+2025-03-28 17:37:03.160 INFO  TimeLogger - 256000@Heap Sort: Normalized time per run {n log n}:  23.2088
+2025-03-28 17:37:03.161 INFO  InstrumentedComparatorHelper - 256000@Heap Sort: StatPack {hits: n=310; mean=34308740; stdDev=2428; normalized=10.762; lookups: <unset>; copies: n=310; mean=0; normalized=0.000; inversions: <unset>; swaps: n=310; mean=4371961; stdDev=388; normalized=1.371; fixes: <unset>; compares: n=310; mean=8410447; stdDev=495; normalized=2.638}
+2025-03-28 17:37:03.161 INFO  SortBenchmark - ************************************************************ (31.085 sec.)
