@@ -60,4 +60,9 @@ public class RandomState {
     private final int x;
     private final Random random;
 
+    public Random random() {
+        return random;
+    }
+    
+
 }
