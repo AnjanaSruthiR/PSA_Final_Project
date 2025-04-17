@@ -47,7 +47,7 @@ public interface Node<G extends Game> {
         if (isLeaf()) return;
         if (children().isEmpty()) {
             addChildren(state());
-            backPropagate();
+         // backPropagate();
         } else throw new RuntimeException("exploration done already for " + this);
     }
 

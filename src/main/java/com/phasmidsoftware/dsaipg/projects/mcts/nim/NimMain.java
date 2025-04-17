@@ -11,7 +11,7 @@ import com.phasmidsoftware.dsaipg.projects.mcts.core.State;
 public class NimMain {
 
     public static void main(String[] args) {
-        NimGame game = new NimGame(Arrays.asList(3, 4, 5));
+        NimGame game = new NimGame(Arrays.asList(1,3,5,7));
         State<NimGame> state = game.start();
 
         Scanner scanner = new Scanner(System.in);
@@ -29,11 +29,11 @@ public class NimMain {
 
                 Node<NimGame> best = root.children().stream()
                  .max(Comparator.comparingInt(Node::wins))
-                 .orElse(root); 
+                 .orElse(root); // fallback if children are empty
                  state = best.state();
                 System.out.println("MCTS chooses move → " + state);
             } else {
-                
+                // Human player's turn
                 System.out.println("Your turn (Player 1). Enter heap index and count to remove:");
                 int heapIndex = scanner.nextInt();
                 int count = scanner.nextInt();
@@ -48,7 +48,7 @@ public class NimMain {
         }
 
         Optional<Integer> winner = state.winner();
-        System.out.println("\nGame Over!  Winner: Player " + winner.orElse(null));
+        System.out.println("\nGame Over! 🎉 Winner: Player " + winner.orElse(null));
     }
      public static void simulate(Node<NimGame> node) {
         if (node.isLeaf()) return;

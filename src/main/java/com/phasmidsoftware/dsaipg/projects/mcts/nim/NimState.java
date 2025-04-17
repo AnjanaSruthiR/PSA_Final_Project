@@ -58,7 +58,7 @@ public class NimState implements State<NimGame> {
                 legalMoves.add(new NimMove(player, i, count));
             }
         }
-        System.out.println("Legal moves for player " + player + ": " + legalMoves.size());
+        //System.out.println("Legal moves for player " + player + ": " + legalMoves.size());
 
         return legalMoves;
     }

@@ -8,6 +8,10 @@ import java.util.Objects;
 import java.util.Random;
 
 public class RandomState {
+
+    public RandomState() {
+        this(1);
+    } 
     public RandomState next() {
         return new RandomState(x, longValue());
     }

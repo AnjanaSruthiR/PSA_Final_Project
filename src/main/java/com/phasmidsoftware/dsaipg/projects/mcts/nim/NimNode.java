@@ -51,7 +51,7 @@ public class NimNode implements Node<NimGame> {
     @Override
     public void addChild(State<NimGame> childState) {
         children.add(new NimNode(childState, this));
-        System.out.println("Added child: " + childState);
+       // System.out.println("Added child: " + childState);
 
     }
 
@@ -91,8 +91,6 @@ public class NimNode implements Node<NimGame> {
     public void addPlayout(int reward) {
         this.wins += reward;
         this.playouts += 1;
-    
-        // Recursively update parent if exists
         if (parent != null) {
             parent.addPlayout(reward);
         }

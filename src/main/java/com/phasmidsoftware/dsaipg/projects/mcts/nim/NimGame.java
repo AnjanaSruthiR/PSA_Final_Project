@@ -17,8 +17,13 @@ public class NimGame implements Game<NimGame> {
 
     @Override
     public State<NimGame> start() {
-        return new NimState(this, new ArrayList<>(initialHeaps), 0, 
-                java.util.Optional.empty(), new RandomState(100));
+        return new NimState(
+            this,
+            new ArrayList<>(initialHeaps),
+            0,
+            java.util.Optional.empty(),
+            new RandomState()    // ← seeds with current time
+        );
     }
 
     @Override
