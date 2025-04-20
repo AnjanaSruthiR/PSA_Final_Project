@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
+import com.phasmidsoftware.dsaipg.projects.mcts.core.Move;
 import com.phasmidsoftware.dsaipg.projects.mcts.core.Node;
 import com.phasmidsoftware.dsaipg.projects.mcts.core.State;
 
@@ -16,34 +17,32 @@ public class NimMain {
 
         int humanPlayer;
         while (true) {
-            System.out.println("Choose your role:\n0 - You play first (Player 0)\n1 - You play second (Player 1)");
+            System.out.println("Choose your role:\n0 – You play first\n1 – You play second");
             if (!scanner.hasNextInt()) {
                 System.out.println("Invalid: enter 0 or 1.");
-                scanner.next();
-                continue;
+                scanner.next(); continue;
             }
             humanPlayer = scanner.nextInt();
             if (humanPlayer == 0 || humanPlayer == 1) break;
-            System.out.println("Invalid choice; must be 0 or 1.");
+            System.out.println("Invalid; must be 0 or 1.");
         }
 
-        System.out.println("Enter MCTS iterations (non‑negative integer, e.g. 500):");
+        System.out.println("Enter MCTS iterations (e.g. 500):");
         int mctsIterations;
         while (true) {
             if (!scanner.hasNextInt()) {
                 System.out.println("Invalid: enter a non‑negative integer.");
-                scanner.next();
-                continue;
+                scanner.next(); continue;
             }
             mctsIterations = scanner.nextInt();
             if (mctsIterations >= 0) break;
-            System.out.println("Must be ≥ 0. Try again.");
+            System.out.println("Iterations must be ≥ 0.");
         }
         scanner.nextLine();
 
         List<Integer> heaps;
         while (true) {
-            System.out.println("Enter heap sizes (space separated, each > 0), e.g. \"1 3 5 7\":");
+            System.out.println("Enter heap sizes (space separated, each > 0), e.g. \"1 3 5 7\":");
             String line = scanner.nextLine().trim();
             if (line.isEmpty()) continue;
             String[] parts = line.split("\\s+");
@@ -55,7 +54,7 @@ public class NimMain {
                     if (h <= 0) throw new NumberFormatException();
                     heaps.add(h);
                 } catch (NumberFormatException e) {
-                    System.out.printf(" “%s” isn’t a valid positive integer.%n", p);
+                    System.out.printf("\"%s\" is not a valid positive integer.%n", p);
                     ok = false;
                     break;
                 }
@@ -63,22 +62,19 @@ public class NimMain {
             if (ok) break;
         }
 
-        // 4) Start the game
+        // Start game
         NimGame game = new NimGame(heaps);
         State<NimGame> state = game.start();
 
-        // 5) Game loop
+        // Main loop
         while (!state.isTerminal()) {
             System.out.println("\nCurrent State: " + state);
             int current = state.player();
-
             if (current == humanPlayer) {
-                // Human turn
-                System.out.printf("Your turn (Player %d) — enter heapIndex and count:%n", current);
-                String moveLine = scanner.nextLine().trim();
-                String[] tok = moveLine.split("\\s+");
+                System.out.printf("Your turn (Player %d). Enter heapIndex and count:%n", current);
+                String[] tok = scanner.nextLine().trim().split("\\s+");
                 if (tok.length != 2) {
-                    System.out.println("Please enter exactly two numbers.");
+                    System.out.println("Enter exactly two numbers.");
                     continue;
                 }
                 try {
@@ -89,34 +85,32 @@ public class NimMain {
                     System.out.println("Invalid move: " + e.getMessage());
                 }
             } else {
-                // AI turn
-                System.out.printf("MCTS (Player %d) is thinking...%n", current);
-                state = mctsDecision(state, mctsIterations);
+                System.out.printf("MCTS (Player %d) thinking...%n", current);
+                state = mctsDecision(state, mctsIterations, 50);
                 System.out.println(" → MCTS chooses: " + state);
             }
         }
 
-        // 6) Announce winner
+        // Game over
         int winner = state.winner().orElse(-1);
-        System.out.printf("%nGame Over! 🎉 Winner: Player %d%n", winner);
+        System.out.printf("%nGame Over! 🎉 Winner: Player %d%n", winner);
     }
 
-    private static State<NimGame> mctsDecision(State<NimGame> state, int iterations) {
+    private static State<NimGame> mctsDecision(State<NimGame> state, int iterations, int maxDepth) {
         NimNode root = new NimNode(state, null);
-        int target   = state.player();
+        int target = state.player();
         for (int i = 0; i < iterations; i++) {
-            simulate(root, 0, Integer.MAX_VALUE, target);
+            simulate(root, 0, maxDepth, target);
         }
-
+        // pick best child by win‐rate
         List<NimNode> viable = new ArrayList<>();
         for (Node<NimGame> c : root.children()) {
-            NimNode n = (NimNode) c;
+            NimNode n = (NimNode)c;
             if (n.playouts() > 0) viable.add(n);
         }
         if (viable.isEmpty()) return state;
-
         double bestRate = viable.stream()
-                                .mapToDouble(n -> (double) n.wins() / n.playouts())
+                                .mapToDouble(n -> (double)n.wins()/n.playouts())
                                 .max().orElse(-1);
         Collections.shuffle(viable);
         return viable.stream()
@@ -125,8 +119,10 @@ public class NimMain {
                      .state();
     }
 
+
     private static int simulate(NimNode node, int depth, int maxDepth, int target) {
-        if (node.state().isTerminal() || depth >= maxDepth) {
+        if (depth >= maxDepth || node.state().isTerminal()) {
+            // reward 1 if target wins, else 0
             return node.state().winner().map(w -> w == target ? 1 : 0).orElse(0);
         }
         if (node.children().isEmpty()) {
@@ -137,12 +133,15 @@ public class NimMain {
 
             State<NimGame> rollout = child.state();
             while (!rollout.isTerminal()) {
-                rollout = rollout.next(rollout.chooseMove(rollout.player()));
+                NimState rs = (NimState) rollout;
+                NimMove m = chooseHeuristicMove(rs);
+                rollout = rollout.next(m);
             }
             int reward = rollout.winner().map(w -> w == target ? 1 : 0).orElse(0);
             child.addPlayout(reward);
             return reward;
         }
+        // UCT selection
         NimNode next = selectUCT(node, Math.sqrt(2));
         int reward = simulate(next, depth + 1, maxDepth, target);
         node.addPlayout(reward);
@@ -155,8 +154,26 @@ public class NimMain {
                      .map(n -> (NimNode)n)
                      .max(Comparator.comparingDouble(child -> {
                          double wi = child.wins(), ni = child.playouts();
-                         return (wi/ni) + C * Math.sqrt(logN/ni);
+                         double exploitation = wi/ni;
+                         double exploration   = C * Math.sqrt(logN/ni);
+                         return exploitation + exploration;
                      }))
                      .orElseThrow(() -> new IllegalStateException("UCT: no children"));
+    }
+
+    // if possible make a winning move, else random.
+    private static NimMove chooseHeuristicMove(NimState s) {
+        int xor = s.getHeaps().stream().reduce(0, (a,b)->a^b);
+        if (xor != 0) {
+            for (int i = 0; i < s.getHeaps().size(); i++) {
+                int h = s.getHeaps().get(i);
+                int want = h ^ xor;
+                if (want < h) return new NimMove(s.player(), i, h - want);
+            }
+        }
+        // else random
+        List<NimMove> all = new ArrayList<>();
+        for (Move<NimGame> m : s.moves(s.player())) all.add((NimMove)m);
+        return all.get(s.random().nextInt(all.size()));
     }
 }
