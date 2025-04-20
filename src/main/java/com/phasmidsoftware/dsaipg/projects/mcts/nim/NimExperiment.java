@@ -64,7 +64,7 @@ public class NimExperiment {
                 String time = parts[3].trim().replace("Time: ", "").replace("ms", "");
                 writer.printf("\"%s\",%s,%s,%s%n", expName, p0, p1, time);
             }
-            System.out.println("✅ Summary exported to nim_experiment_summary.csv");
+            System.out.println("Summary exported to nim_experiment_summary.csv");
         } catch (Exception e) {
             System.err.println("CSV export failed: " + e.getMessage());
         }
